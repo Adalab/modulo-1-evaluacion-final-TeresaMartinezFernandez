@@ -38,8 +38,14 @@
   font-size: 20px;
   line-height: 2.25;
   text-transform: capitalize;
-  text-align: center;
-  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color ease 1s, color ease 1s;
+  &:hover {
+    background-color: $colorBottonHam;
+    color: $colorTextWhite;
+  }
 }
 .section__second {
   width: 100vw;
@@ -113,4 +119,9 @@
   grid-column: 2 / 3;
   grid-row: 6 / 7;
   text-align: center;
+  transition: background-color ease 1s, border-color ease 1s;
+  &:hover {
+    background-color: $colorPathfooter;
+    border-color: $colorTextBlack;
+  }
 }

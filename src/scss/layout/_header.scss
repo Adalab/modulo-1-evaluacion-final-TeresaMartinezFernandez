@@ -1,6 +1,6 @@
 .header {
   width: 100vw;
-  height: 568px;
+  height: 100vh;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -57,4 +57,20 @@
 .header__botton--image {
   width: 20px;
   height: 11px;
+}
+@media all and (min-width: 768px) {
+  .header__title {
+    font-size: 80px;
+    width: 690px;
+    height: 212px;
+    transform: translate(0, 320px);
+  }
+  .header__title--small {
+    font-size: 24px;
+    width: 360px;
+    transform: translate(0, 320px);
+  }
+  .header__botton {
+    transform: translate(0, 360px);
+  }
 }
