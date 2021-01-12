@@ -1,7 +1,73 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url('../images/bg-adalab.png');
-  background-color: $color-bg;
-  font-family: $font-main;
+.section__first {
+  height: 376px;
+  width: 100vw;
+  background-color: $colorTextWhite;
+  padding: 15px;
+}
+.section__first--smalltext {
+  font-family: $fontText;
+  color: $colorTextSmall;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 15px;
+}
+.section__first--title {
+  height: 60px;
+  font-family: $fontTitle;
+  color: $colorTextBlack;
+  font-size: 24px;
+  text-transform: capitalize;
+  padding: 15px;
+}
+.section__first--text {
+  height: 120px;
+  font-family: $fontText;
+  color: $colorTextGrey;
+  font-size: 18px;
+  text-align: justify;
+  padding: 15px;
+}
+.section__first--button {
+  height: 45px;
+  width: 76px;
+  border: 2px solid $colorIconsOrange;
+  color: $colorIconsOrange;
+  border-radius: 22.5px;
+  font-family: $fontBotton;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2.25;
+  text-transform: capitalize;
+  text-align: center;
+  margin-left: 15px;
+}
+.section__second {
+  width: 100vw;
+  background-color: $colorPathsection;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 100px);
+}
+.section__second--titleppal {
+  text-align: center;
+  font-family: $fontTitle;
+  font-size: 24px;
+  text-transform: capitalize;
+  padding-top: 30px;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+.section__second--title {
+  font-family: $fontTitle;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.67;
+  text-align: center;
+}
+.section__second--text {
+  font-family: $fontText;
+  font-size: 18px;
+  line-height: 1.67;
+  width: 180px;
+  text-align: center;
 }

@@ -1,5 +1,60 @@
-.page__header {
+.header {
+  width: 100vw;
+  height: 568px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__link {
+  background-color: $colorBottonHam;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.header__image-link {
+  width: 16px;
+  height: 14px;
+}
+.header__title {
+  font-family: $fontTitle;
+  color: $colorTextWhite;
+  font-size: 42px;
+  text-transform: uppercase;
+  width: 290px;
+  text-align: center;
+  transform: translate(0, 100px);
+}
+.header__title--small {
+  font-family: $fontText;
+  color: $colorTextWhite;
+  font-size: 16px;
+  font-weight: normal;
+  width: 290px;
+  text-align: center;
+  transform: translate(0, 115px);
+}
+.header__botton {
+  width: 45px;
+  height: 45px;
+  background-color: $colorTextWhite;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(0, 150px);
+}
+.header__botton--image {
+  width: 20px;
+  height: 11px;
 }
