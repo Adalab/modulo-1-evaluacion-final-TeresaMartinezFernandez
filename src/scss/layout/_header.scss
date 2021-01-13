@@ -30,10 +30,12 @@
   font-family: $fontTitle;
   color: $colorTextWhite;
   font-size: 42px;
+  font-weight: bold;
+  line-height: 1.31;
   text-transform: uppercase;
   width: 290px;
   text-align: center;
-  transform: translate(0, 100px);
+  padding: 284px 15px 0 15px;
 }
 .header__title--small {
   font-family: $fontText;
@@ -42,7 +44,7 @@
   font-weight: normal;
   width: 290px;
   text-align: center;
-  transform: translate(0, 115px);
+  padding: 10px 15px 0 15px;
 }
 .header__botton {
   width: 45px;
@@ -52,7 +54,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: translate(0, 150px);
+  transform: translate(0, 45px);
 }
 .header__botton--image {
   width: 20px;
@@ -66,14 +68,20 @@
     font-size: 80px;
     width: 690px;
     height: 212px;
-    transform: translate(0, 140px);
+    padding: 290px 39px 0 39px;
   }
   .header__title--small {
     font-size: 24px;
     width: 360px;
-    transform: translate(0, 160px);
+    padding-top: 220px;
   }
-  .header__botton {
-    transform: translate(0, 190px);
+}
+@media all and (min-width: 1200px) {
+  .header__title {
+    font-size: 100px;
+  }
+  .header__title--small {
+    padding-top: 260px;
+    width: 730px;
   }
 }
