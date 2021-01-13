@@ -64,8 +64,35 @@
   font-size: 14px;
   line-height: 2.14;
 }
+.fa-heart {
+  color: $colorIconsOrange;
+}
 @media all and (min-width: 768px) {
   .footer {
+    height: 240px;
     flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding-top: 45px;
+  }
+  .footer__icon {
+    transform: translate(-70px, -70px);
+  }
+  .footer__menu-items {
+    order: 2;
+  }
+  .footer__menu--social {
+    order: -1;
+    padding-right: 40px;
+  }
+  .footer__copy {
+    order: 4;
+  }
+  .footer__text {
+    order: 3;
+    transform: translate(-90px, 20px);
+  }
+  .footer__menu--list {
+    text-align: left;
   }
 }
