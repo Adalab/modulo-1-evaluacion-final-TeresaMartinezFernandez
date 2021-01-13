@@ -101,6 +101,10 @@
   .footer {
     justify-content: center;
   }
+  .footer__icon {
+    transform: none;
+    transform: translate(0, -65px);
+  }
 
   .footer__copy {
     transform: translateX(-50px);
